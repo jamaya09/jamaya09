@@ -1,0 +1,18 @@
+.historial__container {
+    border: thin solid rgb(228, 228, 228);
+    border-radius: 3px;
+    margin: 0 auto;
+    height: 20rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    overflow-y: scroll;
+}
+
+.lecturas__container {
+    border: thin solid rgb(228, 228, 228);
+    width: 90%;
+    border-radius: 3px;
+    padding: 1rem 3rem 2rem;
+    margin: 0 auto 2rem;
+}

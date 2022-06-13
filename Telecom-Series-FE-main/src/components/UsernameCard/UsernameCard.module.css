@@ -1,0 +1,9 @@
+.button {
+    height: 50px;
+    border-radius: 0%;
+    font-weight: 100;
+}
+
+.button:hover {
+    background-color: inherit;
+}

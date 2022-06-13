@@ -1,0 +1,1 @@
+window.__RUNTIME_CONFIG__ = {"REACT_APP_URL_BASE":"http://localhost:5000/api","REACT_APP_B2C_CLIENT_ID":"58fb34da-0a3e-45f6-aa35-f806a684433a","REACT_APP_B2C_AUTHORITIY_DOMAIN":"https://andreanib2cdev.b2clogin.com/andreanib2cdev.onmicrosoft.com/"};

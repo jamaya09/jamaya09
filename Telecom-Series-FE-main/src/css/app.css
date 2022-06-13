@@ -1,0 +1,238 @@
+body {
+  --primary: #d71920;
+  --error: #d71920;
+  --andreani: #d71920;
+
+  /* Secondaries */
+  --secondary-red-dark: #b6040b;
+  --secondary-red-light: #e44348;
+  --secondary-yellow: #ffc350;
+  --secondary-green: #279e70;
+  --secondary-blue: #4e63d7;
+
+  /* Shadows */
+  --shadow-gray: #e0e0e0;
+  --shadow-red: #eabbc4;
+  --shadow-yellow: #ffe4b9;
+  --shadow-green: #a2d3be;
+  --shadow-blue: #a4b0f1;
+
+  /* Gray-Scale */
+  --gray-000: #fff;
+  --gray-100: #f4f4f4;
+  --gray-200: #e0e0e0;
+  --gray-300: #bdbdbd;
+  --gray-400: #9e9e9e;
+  --gray-500: #757575;
+  --gray-600: #707070;
+  --gray-700: #616161;
+  --gray-800: #424242;
+  --gray-900: #212121;
+
+  /* Backgrounds */
+  --background-page: #fafafa;
+  --background-card: var(--gray-000);
+
+  /* Text */
+  --color-text-base: var(--gray-700);
+
+  /* Spacing */
+  --spacing-1: 4px;
+  --spacing-2: 8px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 24px;
+  --spacing-6: 32px;
+  --spacing-7: 48px;
+  --spacing-8: 64px;
+  --spacing-9: 96px;
+  --spacing-10: 128px;
+  --spacing-11: 192px;
+  --spacing-12: 256px;
+  --spacing-13: 384px;
+  --spacing-14: 512px;
+
+  /* Border-Radius */
+  --border-radius-xsmall: 4px;
+  --border-radius-small: 8px;
+  --border-radius-medium: 16px;
+  --border-radius-large: 24px;
+
+  /* Box shadows */
+  --bs-primary: 0 1px 9px 0 rgba(195, 195, 195, 0.3);
+
+  /* Typography Desktop */
+  --d-title-1: 48px;
+  --d-title-2: 36px;
+  --d-title-3: 30px;
+  --d-title-4: 24px;
+  --d-title-5: 20px;
+  --d-title-6: 18px;
+  --d-subtitle-1: 16px;
+  --d-subtitle-2: 14px;
+
+  /* Typography Mobile */
+  --m-title-1: 36px;
+  --m-title-2: 30px;
+  --m-title-3: 24px;
+  --m-title-4: 20px;
+  --m-title-5: 18px;
+  --m-title-6: 16px;
+  --m-subtitle-1: 16px;
+  --m-subtitle-2: 14px;
+
+  /* Typography */
+  --title-1: var(--m-title-1);
+  --title-2: var(--m-title-2);
+  --title-3: var(--m-title-3);
+  --title-4: var(--m-title-4);
+  --title-5: var(--m-title-5);
+  --title-6: var(--m-title-6);
+  --subtitle-1: var(--m-subtitle-1);
+  --subtitle-2: var(--m-subtitle-2);
+  --body-1: 18px;
+  --body-2: 16px;
+  --body-3: 14px;
+  --caption: 12px;
+  --overline: 10px;
+
+  /* Typography overrides */
+  @media (min-width: 1200px) {
+    --title-1: var(--d-title-1);
+    --title-2: var(--d-title-2);
+    --title-3: var(--d-title-3);
+    --title-4: var(--d-title-4);
+    --title-5: var(--d-title-5);
+    --title-6: var(--d-title-6);
+    --subtitle-1: var(--d-subtitle-1);
+    --subtitle-2: var(--d-subtitle-2);
+  }
+}
+
+.text {
+  font-size: var(--title-1);
+}
+
+.subtitle1 {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: var(--subtitle-1);
+  color: #d71920;
+  font-weight: 500;
+}
+
+.subtitle2 {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: var(--subtitle-2);
+  color: #d71920;
+  font-weight: 500;
+}
+
+p.body1 {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--body-1);
+  color: #d71920;
+  font-weight: 400;
+}
+
+p.body2 {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--body-2);
+  color: #d71920;
+  font-weight: 400;
+}
+
+p.body3 {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--body-3);
+  color: #d71920;
+  font-weight: 400;
+}
+
+p.caption {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: var(--caption);
+  color: #d71920;
+  font-weight: 400;
+}
+
+p.overline {
+  font-family: "Roboto", sans-serif;
+  font-size: var(--overline);
+  color: #d71920;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 48px;
+  color: #d71920;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 36px;
+  color: #d71920;
+  font-weight: 400;
+}
+
+h3 {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: 30px;
+  color: #d71920;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: 24px;
+  color: #d71920;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: 20px;
+  color: #d71920;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+.label-input {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.untotales-text,
+.unleidas-text,
+.sku-text {
+  font-family: "Ubuntu", "Roboto", sans-serif;
+  font-size: 24px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.caja-label {
+  color: #000000;
+}
+
+.primary {
+  color: blue;
+}
+
+.secondary {
+  color: green;
+}
+
+a {
+  color: var(--andreani);
+  text-decoration: none;
+}
